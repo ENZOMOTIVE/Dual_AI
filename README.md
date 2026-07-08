@@ -1,35 +1,47 @@
 # Dual AI
 
-`Dual_AI` is a Next.js application. The repository contains route files, UI components, and package scripts for local development and production builds.
+## Project Tags
+
+- `Agentic AI`
+- `Protocol`
+
+## Overview
+
+Dual AI is an AI/agent-oriented project with code or structure for automated assistant workflows.
 
 ## Features
 
-- Application routes/pages and reusable React components
-- Frontend build configuration for a modern web app
+- User-facing frontend or app interface
+- AI, agent, bot, MCP, or assistant-oriented automation surface
 
 ## Tech Stack
 
 - Next.js
 - React
-- TypeScript/JavaScript
+- Vite
+- Node.js
+- TypeScript
+- JavaScript
+- HTML
+- CSS
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `.gitignore` - project file
-- `README.md` - project documentation
-- `Sonic-Agent` - project file
+- `.gitattributes` - project file or directory
+- `.gitignore` - project file or directory
+- `Sonic-Agent` - backend, API, bot, or server code
 - `frontend` - frontend application code
-- `package-lock.json` - project file
+- `package-lock.json` - project file or directory
 - `package.json` - Node package metadata and scripts
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Dual_AI.git
@@ -46,32 +58,32 @@ npm run dev
 npm install
 ```
 
-## Available Commands
+## Commands
 
-- `frontend/package.json` - scripts: `dev`, `build`, `lint`, `preview`
-- `package.json` - no npm scripts are currently defined.
+- `frontend/package.json`: `dev`, `build`, `lint`, `preview`
+- `package.json`: package metadata is present; no scripts are defined yet.
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- Keep model/provider keys and agent secrets outside version control.
 
 ## Testing and Quality
 
 - From `frontend`, run `npm run lint`.
 - From `frontend`, run `npm run build`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
