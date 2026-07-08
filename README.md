@@ -1,10 +1,22 @@
 # Dual AI
 
-> Dual AI is an AI-assisted workflow project that connects model-powered behavior with application or protocol tooling.
+> Dual AI is a WhatsApp-based dual-agent AI experiment for exploring conversational automation.
 
 ## The Story
 
 Dual AI starts with a simple goal: make model-driven behavior useful around wallets, tokens, contracts, or blockchain workflows. Its shape tells the same story: the product interface, the service layer, and the AI-assisted workflow live close enough together that a maintainer can see the project as a whole before diving into individual folders.
+
+## Detailed Description
+
+Dual AI is a WhatsApp-based dual-agent AI experiment for exploring conversational automation. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The interesting part of this project is the connection between agent behavior and on-chain or wallet-aware actions. A maintainer should be able to trace both sides: where the model-driven workflow begins, and where protocol, wallet, or transaction logic takes over.
+
+At the top level, the most important entry points are `Sonic-Agent`, `frontend`, and `package.json`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The declared Node surfaces include `frontend` (scripts: `dev`, `build`, `lint`, `preview`) and the root package (no scripts declared). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
+
+The visible stack currently points to `Next.js`, `React`, `Vite`, `Node.js`, `TypeScript`, `JavaScript`, `HTML`, and `CSS`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
